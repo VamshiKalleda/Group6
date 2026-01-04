@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: group
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/community?useSSL=false&serverTimezone=UTC
+    username: root
+    password: Root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8081
